@@ -1,0 +1,63 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+/* Navbar */
+
+.nav {
+    z-index: 1;
+    width: 20vw;
+    height: 100vh;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    border: 1px solid transparent;
+    /* animated border right rgb */
+    border-right: 1px rgba(247, 37, 133, 0.3); 
+    animation: animatedBorderRight 3s infinite;
+    /* animated border right rgb */
+}
+
+@keyframes animatedBorderRight {
+    0% {
+        border-right: 1px solid rgb(247, 37, 133);
+        box-shadow: 0 4px 30px 0 rgba(247, 37, 133, 0.5);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+
+    50% {
+        border-right: 1px solid rgb(237, 76, 103) ;
+        box-shadow: 0 4px 30px 0 rgba(237, 76, 103, 0.5);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+
+    100% {
+        border-right: 1px solid rgb(217, 128, 250);
+        box-shadow: 0 4px 30px 0 rgba(217, 128, 250, 0.5);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+}
+
+.lienNav {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    color: black !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.actif{
+    border-bottom: 1px solid crimson;
+    color: crimson !important;
+    font-weight: bold !important;
+}
+
+.nav-item:hover {
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+/* Navbar */
+

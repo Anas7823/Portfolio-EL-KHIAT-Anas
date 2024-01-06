@@ -48,6 +48,10 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+.lienNav i{
+    float: right;
+}
+
 .actif{
     border-bottom: 1px solid crimson;
     color: crimson !important;

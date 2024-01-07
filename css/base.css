@@ -1,5 +1,13 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
+body {
+    width: 100vw;
+    margin: 0 !important;
+    display: flex;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(0, 0, 0) 100%);
+}
+
+
 /* Navbar */
 
 .nav {
@@ -7,7 +15,7 @@
     width: 20vw;
     height: 100vh;
     padding: 50px;
-    background: rgba(255, 255, 255, 0.2);
+    background: white;
     /* border-radius: 16px; */
     border: 1px solid transparent;
     /* animated border right rgb */
@@ -48,13 +56,18 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+.lienNav:hover {
+    border-bottom: 1px solid rgba(84,58,183,1);
+    color: rgba(84,58,183,1) !important;
+}
+
 .lienNav i{
     float: right;
 }
 
 .actif{
-    border-bottom: 1px solid crimson;
-    color: crimson !important;
+    border-bottom: 1px solid rgba(84,58,183,1);
+    color: rgba(84,58,183,1) !important;
     font-weight: bold !important;
 }
 

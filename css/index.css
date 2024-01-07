@@ -1,12 +1,5 @@
 /* <!--CSS pour l'effet vague dans l'accueil--> */
 
-body {
-    width: 100vw;
-    margin: 0 !important;
-    display: flex;
-    background-color: white !important;
-}
-
 .vague {
     font-family: 'Lato', sans-serif;
     font-weight: 300;

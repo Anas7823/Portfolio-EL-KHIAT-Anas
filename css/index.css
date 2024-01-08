@@ -20,7 +20,7 @@ p {
     background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgb(0, 0, 0) 100%);
     color: white;
     overflow: hidden;
-    width: 100%;
+    width: 80vw;
     height: 100vh;
 }
 

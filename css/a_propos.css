@@ -18,7 +18,7 @@ html {
 
 
 .container {
-    max-width: 100%; 
+    max-width: 80vw; 
     max-height: 100vh;
     padding: 1rem 0;
     display: grid;

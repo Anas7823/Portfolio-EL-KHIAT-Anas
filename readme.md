@@ -1,1 +1,1 @@
-Toujours mettre la div apres la nav à 100%
+Toujours mettre la width de la div apres la nav à 80vw

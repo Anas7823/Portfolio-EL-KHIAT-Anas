@@ -9,14 +9,16 @@ let btnDObtenu = document.getElementById("btn-diplome-obtenu");
 // Tableau des diplomes
 let diplomes = [
     {
+        id: "diplome_1",
         titre: "BTS SIO SLAM",
         date: "2021-2023",
         lieu: "IPSSI SQY",
         etat: "obtenu",
-        description: "Niveau Bac +2, le BTS SIO SLAM forme des professionnels en informatique pour la conception, le développement, et la maintenance d'applications métiers. Les diplômés sont aptes à travailler dans le développement logiciel au sein des entreprises.",
+        description: "Le BTS SIO (Services Informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) est une formation de niveau bac+2 en informatique. Ce cursus prépare les étudiants à intervenir dans la conception, le développement, la mise en œuvre et la maintenance de solutions logicielles adaptées aux besoins des entreprises. L'option SLAM met particulièrement l'accent sur le développement d'applications métiers, en formant les étudiants aux langages de programmation, aux bases de données, et aux méthodes de conception logicielle. Les compétences acquises permettent aux diplômés de travailler dans le domaine du développement informatique, que ce soit dans des SSII (Sociétés de Services en Ingénierie Informatique) ou au sein des services informatiques des entreprises.",
         image:"../img/logo_ipssi.png"
     },
     {
+        id: "diplome_2",
         titre: "Bachelor de Développement fullstack & DevOps",
         date: "2023-2024",
         lieu: "IPSSI SQY",
@@ -37,8 +39,24 @@ for (let i = 0; i < diplomes.length; i++) {
             <img src="${diplome.image}" class="card-img-top" alt="diplome-img">
             <div class="card-body">
                 <h5 class="card-title">${diplome.titre}</h5>
-                <p class="card-text">${diplome.description}</p>
-                <a href="#" class="btn btn-primary">Détails</a>
+                <button class="btn btn-primary" data-bs-target="#${diplome.id}" data-bs-toggle="modal" data-bs-dismiss="modal">Détails</button>
+            </div>
+        </div>
+
+        <div class="modal fade" id="${diplome.id}" aria-hidden="true" aria-labelledby="${diplome.id}" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="titre"> ${diplome.titre} </h5>
+                    <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ${diplome.description}
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+                </div>
             </div>
         </div>
     `;

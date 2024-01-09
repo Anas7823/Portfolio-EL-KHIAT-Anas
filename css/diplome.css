@@ -10,8 +10,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 2rem;
-
-    border: 1px solid red;
 }
 
 .diplomes-trier{
@@ -55,7 +53,7 @@ body{
 }
 
 #diplome-en-cours {
-    height: 0;
+    height: auto;
     overflow: hidden;
     transition: height 0.5s ease;
 }

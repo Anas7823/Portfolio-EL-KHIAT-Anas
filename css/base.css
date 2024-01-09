@@ -13,7 +13,8 @@ body {
 .nav {
     z-index: 1;
     width: 20vw;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: fit-content; /* Pour que la navbar puisse déssendre en fonction de la taille de l'écran */
     padding: 50px;
     background: white;
     /* border-radius: 16px; */

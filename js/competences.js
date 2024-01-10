@@ -71,7 +71,7 @@ let competences = [
     },
     {
         nom: "Figma",
-        image: "../img/competences/figma.jpg",
+        image: "../img/competences/Figma.jpg",
         lien: "",
         designation: "Outil de maquettage",
     }

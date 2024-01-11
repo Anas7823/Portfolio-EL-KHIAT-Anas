@@ -5,6 +5,7 @@ body {
     margin: 0 !important;
     display: flex;
     background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(0, 0, 0) 100%);
+    scroll-behavior: smooth;
 }
 
 

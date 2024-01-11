@@ -1,0 +1,27 @@
+body{
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+.projets{
+    width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    padding: 2rem;
+    /* Avoir max 4 card sur la ligne */
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card{
+    width: 20rem;
+    height: 31rem;
+    margin: 1rem;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.description{
+    height: 30%;
+    overflow: hidden;
+}

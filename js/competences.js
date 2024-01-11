@@ -6,7 +6,7 @@ let competences = [
     {
         nom: "ReactJS",
         image: "../img/competences/reactjs.jpg",
-        lien: "",
+        lien: "./pages-competences/react.html",
         designation: "Framework JavaScript",
     },
     {
@@ -88,7 +88,7 @@ for (let i = 0; i < competences.length; i++) {
             <img src="${competence.image}" class="card-img-top" alt="competence-img" style="max-height: 10rem;">
             <div class="card-body">
                 <h5 class="card-title"><b>${competence.nom}</b></h5>
-                <a href='${competence.lien}' class="btn btn-dark" target="_blank">Voir les projets</a>
+                <a href='${competence.lien}' class="btn btn-dark">Voir les projets</a>
             </div>
         </div>
     `;

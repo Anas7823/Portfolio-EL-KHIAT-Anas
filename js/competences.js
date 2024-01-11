@@ -12,7 +12,7 @@ let competences = [
     {
         nom: "NodeJS",
         image: "../img/competences/nodejs.png",
-        lien: "",
+        lien: "./pages-competences/node.html",
         designation: "Framework JavaScript",
     },
     {

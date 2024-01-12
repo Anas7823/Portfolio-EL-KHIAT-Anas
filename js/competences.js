@@ -18,7 +18,7 @@ let competences = [
     {
         nom: "JestJS",
         image: "../img/competences/jestjs.png",
-        lien: "",
+        lien: "./pages-competences/jest.html",
         designation: "Framework JavaScript",
     },
     {

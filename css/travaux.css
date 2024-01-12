@@ -21,6 +21,11 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
+.card .img{
+    height: 70%;
+    overflow: hidden;
+}
+
 .description{
     height: 30%;
     overflow: hidden;

@@ -24,6 +24,12 @@ body{
 .card .img{
     height: 254px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.card .card-title{
+    height: 50px;
 }
 
 .description{

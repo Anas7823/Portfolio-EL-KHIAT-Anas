@@ -30,7 +30,7 @@ let competences = [
     {
         nom: "Symfony 6 / Twig",
         image: "../img/competences/Symf-twig.jpg",
-        lien: "",
+        lien: "./pages-competences/symfony.html",
         designation: "Framework PHP",
     },
     {
@@ -42,7 +42,7 @@ let competences = [
     {
         nom: "HTML / CSS",
         image: "../img/competences/html-css.jpg",
-        lien: "",
+        lien: "./pages-competences/html-css.html",
         designation: "Langage de programmation",
     },
     {

@@ -24,7 +24,7 @@ let competences = [
     {
         nom: "PHP",
         image: "../img/competences/php.png",
-        lien: "",
+        lien: "./pages-competences/php.html",
         designation: "Langage de programmation",
     },
     {

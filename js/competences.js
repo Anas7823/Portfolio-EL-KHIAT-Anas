@@ -8,72 +8,84 @@ let competences = [
         image: "../img/competences/reactjs.jpg",
         lien: "./pages-competences/react.html",
         designation: "Framework JavaScript",
+        projet: true
     },
     {
         nom: "NodeJS",
         image: "../img/competences/nodejs.png",
         lien: "./pages-competences/node.html",
         designation: "Framework JavaScript",
+        projet: true
     },
     {
         nom: "JestJS",
         image: "../img/competences/jestjs.png",
         lien: "./pages-competences/jest.html",
         designation: "Framework JavaScript",
+        projet: true
     },
     {
         nom: "PHP",
         image: "../img/competences/php.png",
         lien: "./pages-competences/php.html",
         designation: "Langage de programmation",
+        projet: true
     },
     {
         nom: "Symfony 6 / Twig",
         image: "../img/competences/Symf-twig.jpg",
         lien: "./pages-competences/symfony.html",
         designation: "Framework PHP",
+        projet: true
     },
     {
         nom: "SQL",
         image: "../img/competences/sql.jpg",
         lien: "",
         designation: "Langage de programmation",
+        projet: false
     },
     {
         nom: "HTML / CSS",
         image: "../img/competences/html-css.jpg",
         lien: "./pages-competences/html-css.html",
         designation: "Langage de programmation",
+        projet: true
     },
     {
         nom: "JavaScript",
         image: "../img/competences/javascript.webp",
         lien: "",
         designation: "Langage de programmation",
+        projet: true
     },
     {
         nom: "Dart / Flutter",
         image: "../img/competences/flutter-dart.jpg",
         lien: "",
         designation: "Langage de programmation et Framework",
+        projet: true
     },
     {
         nom: "Python / Django",
         image: "../img/competences/django.png",
         lien: "",
         designation: "Langage de programmation et Framework",
+        projet: true
     },
     {
         nom: "Git",
         image: "../img/competences/git.png",
         lien: "",
         designation: "Outil de versioning",
+        projet: false
     },
     {
         nom: "Figma",
         image: "../img/competences/Figma.jpg",
         lien: "",
         designation: "Outil de maquettage",
+        projet: true
     }
 ];
 
@@ -88,7 +100,8 @@ for (let i = 0; i < competences.length; i++) {
             <img src="${competence.image}" class="card-img-top" alt="competence-img" style="max-height: 10rem;">
             <div class="card-body">
                 <h5 class="card-title"><b>${competence.nom}</b></h5>
-                <a href='${competence.lien}' class="btn btn-dark">Voir les projets</a>
+                ${competence.projet ? `<a href='${competence.lien}' class="btn btn-dark">Voir les projets</a>` : `<a href='${competence.lien}' class="btn disabled btn-dark">Voir les projets</a>`}
+                
             </div>
         </div>
     `;

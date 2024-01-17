@@ -55,7 +55,7 @@ let competences = [
     {
         nom: "JavaScript",
         image: "../img/competences/javascript.webp",
-        lien: "",
+        lien: "./pages-competences/js.html",
         designation: "Langage de programmation",
         projet: true
     },
@@ -67,10 +67,24 @@ let competences = [
         projet: true
     },
     {
+        nom: "Python",
+        image: "../img/competences/python.png",
+        lien: "",
+        designation: "Langage de programmation",
+        projet: false
+    },
+    {
+        nom: "Python / Notebook Jupyter",
+        image: "../img/competences/jupyter.png",
+        lien: "",
+        designation: "Langage de programmation et Framework",
+        projet: false
+    },
+    {
         nom: "Python / Django",
         image: "../img/competences/django.png",
         lien: "",
-        designation: "Langage de programmation et Framework",
+        designation: "Framework Python",
         projet: true
     },
     {
@@ -97,10 +111,10 @@ for (let i = 0; i < competences.length; i++) {
             <div class="card-header" style="min-height: 4rem; ">
                 ${competence.designation}
             </div>
-            <img src="${competence.image}" class="card-img-top" alt="competence-img" style="max-height: 10rem;">
+            <img src="${competence.image}" class="card-img-top" alt="competence-img" style="min-height: 160px; max-height: 10rem;">
             <div class="card-body">
                 <h5 class="card-title"><b>${competence.nom}</b></h5>
-                ${competence.projet ? `<a href='${competence.lien}' class="btn btn-dark">Voir les projets</a>` : `<a href='${competence.lien}' class="btn disabled btn-dark">Voir les projets</a>`}
+                ${competence.projet ? `<a href='${competence.lien}' class="btn btn-dark">Voir les projets</a>` : ``}
                 
             </div>
         </div>

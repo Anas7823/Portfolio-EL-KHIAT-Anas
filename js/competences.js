@@ -62,7 +62,7 @@ let competences = [
     {
         nom: "Dart / Flutter",
         image: "../img/competences/flutter-dart.jpg",
-        lien: "",
+        lien: "./pages-competences/flutter.html",
         designation: "Langage de programmation et Framework",
         projet: true
     },
@@ -99,7 +99,7 @@ let competences = [
         image: "../img/competences/Figma.jpg",
         lien: "",
         designation: "Outil de maquettage",
-        projet: true
+        projet: false
     }
 ];
 

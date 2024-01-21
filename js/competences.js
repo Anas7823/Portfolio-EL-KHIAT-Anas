@@ -83,9 +83,9 @@ let competences = [
     {
         nom: "Python / Django",
         image: "../img/competences/django.png",
-        lien: "",
+        lien: "./pages-competences/django.html",
         designation: "Framework Python",
-        projet: true
+        projet: false
     },
     {
         nom: "Git",

@@ -11,22 +11,60 @@ body {
 
 /* Navbar */
 
-.nav {
+.nav-border {
     z-index: 1;
     width: 20vw;
     min-height: 100vh;
     max-height: fit-content; /* Pour que la navbar puisse déssendre en fonction de la taille de l'écran */
     padding: 50px;
-    background: white;
-    /* border-radius: 16px; */
+    /* background: white;
     border: 1px solid transparent;
-    /* animated border right rgb */
     border-right: 1px rgba(247, 37, 133, 0.3); 
-    animation: animatedBorderRight 3s infinite;
-    /* animated border right rgb */
+    animation: animatedBorderRight 3s infinite; */
+    background: #020024;
+    background: linear-gradient(155deg, #020024 0%, red 0%, #ffab00 12%,
+    #e0ff00 24%, #00ff08 36%, #00e4ff 48%, #0005ff 60%, #fe00e7 72%, #ff0000 84%, #ffa200 100%);
+    position: relative;
+    animation: gradient 3s linear infinite;
 }
 
-@keyframes animatedBorderRight {
+.nav-border::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    position: absolute;
+    filter: blur(7px);
+}
+
+.nav-border .nav{
+    padding: 50px 50px 0 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 18.75em 31.25em;
+    }
+    100% {
+        background-position: 0.1em 0.1em;
+    }
+}
+
+/* @keyframes animatedBorderRight {
     0% {
         border-right: 1px solid rgb(247, 37, 133);
         box-shadow: 0 4px 30px 0 rgba(247, 37, 133, 0.5);
@@ -47,7 +85,7 @@ body {
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
     }
-}
+} */
 
 .lienNav {
     width: 100%;

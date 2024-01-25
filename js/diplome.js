@@ -9,6 +9,15 @@ let btnDObtenu = document.getElementById("btn-diplome-obtenu");
 // Tableau des diplomes
 let diplomes = [
     {
+        id: "diplome_avant_bac",
+        titre: "Bac STI2D ITEC",
+        date: "2019-2021",
+        lieu: "Jean Rostand",
+        etat: "obtenu",
+        description: "Le bac STI2D (sciences et technologies de l'industrie et du développement durable) s'adresse aux élèves intéressés par les sciences industrielles et les technologies de l'information et de la communication. Il prépare aux métiers de l'industrie et du développement durable. Le bac STI2D se prépare en 2 ans après la seconde générale et technologique. Il existe 4 spécialités : architecture et construction, énergies et environnement, innovation technologique et éco-conception, systèmes d'information et numérique. Le bac STI2D permet de poursuivre ses études en BTS, DUT, classes préparatoires aux grandes écoles (CPGE), écoles d'ingénieurs, écoles spécialisées, licences professionnelles, etc.",
+        image:"../img/logo_rostand.png"
+    },
+    {
         id: "diplome_1",
         titre: "BTS SIO SLAM",
         date: "2021-2023",

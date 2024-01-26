@@ -1,0 +1,29 @@
+body{
+    overflow-x: hidden;
+}
+.realisations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.contenue{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.avertissement{
+    width: 60%;
+    height: auto;
+    margin: 2rem auto !important;
+    margin-top: 2rem;
+}

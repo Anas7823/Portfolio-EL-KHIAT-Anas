@@ -13,7 +13,8 @@
     -webkit-backdrop-filter: blur(6.2px);
     border: 1px solid rgba(255, 255, 255, 0.13);
     width: 40vw;
-    height: 60vh;
+    height: auto;
+    padding: 2rem;
     margin: auto auto;
     display: flex;
     flex-direction: column;
@@ -36,6 +37,11 @@
     display: flex;
     justify-content: center;
 }
+
+.contact-item a{
+    margin: 20px;
+}
+
 .contact-item:nth-child(2){
     /* border: 1px solid green; */
     height: 100%;

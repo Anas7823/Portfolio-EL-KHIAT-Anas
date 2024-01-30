@@ -1,0 +1,54 @@
+.veilles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.carte{
+  background-color: #202022;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  width: 420px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 30px;
+  transition: 0.5s;
+}
+.carte:hover{
+  transition: 1s;
+  box-shadow: 0 0 20px #ac69fd;
+  
+}
+.texteCarte{
+  height: 140px;
+  margin-top: 35px;
+  margin-bottom: 10%;
+}
+
+.btnCarte{
+  color: white;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid transparent;
+  background-color: #ac69fd;
+  border-radius:  50px;
+  text-align: center;
+}
+
+.btnCarte:hover{
+  transition: 0.5s;
+  background-color:aliceblue;
+  color: #ac69fd;
+  border: 1px solid #ac69fd;
+}
+
+
+.btns-docs{
+    display: flex;
+    flex-direction: column;
+}

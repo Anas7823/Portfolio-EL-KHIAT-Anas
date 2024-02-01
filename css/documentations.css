@@ -40,7 +40,15 @@ body{
 }
 
 .masquer a {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 25px;
     color: white;
+}
+
+.masquer a:hover{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(5deg, violet, #f20089);
+    transition: color 0.4s linear;
+    transform: scale(1.1);
 }

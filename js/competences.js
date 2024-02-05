@@ -95,6 +95,13 @@ let competences = [
         projet: false
     },
     {
+        nom: "Apprentissage personnel",
+        image: "../img/competences/apprentissage_personnel.webp",
+        lien: "./pages-competences/apprentissage_personnel.html",
+        designation: "Apprentissage personnel",
+        projet: true
+    },
+    {
         nom: "Figma",
         image: "../img/competences/Figma.jpg",
         lien: "",

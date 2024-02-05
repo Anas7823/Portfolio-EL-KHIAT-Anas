@@ -52,3 +52,7 @@ body{
     transition: color 0.4s linear;
     transform: scale(1.1);
 }
+
+.highlighted{
+    border: 2px solid whitesmoke;
+}

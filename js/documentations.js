@@ -34,16 +34,22 @@ function highlightElements(searchTerm) {
     });
 }
 
-// Écouter les changements dans l'URL
-window.addEventListener('hashchange', function() {
+// Fonction pour traiter le changement de hash
+function handleHashChange() {
     // Récupérer la valeur de l'URL après le caractère #
     var searchTerm = window.location.hash.substring(1);
-
+  
     // Réinitialiser les styles
     document.querySelectorAll('.highlighted').forEach(function(element) {
-        element.classList.remove('highlighted');
+      element.classList.remove('highlighted');
     });
-
+  
     // Appliquer les styles aux éléments correspondants
     highlightElements(searchTerm);
-});
+}
+
+// Écouter l'événement popstate
+window.addEventListener('popstate', handleHashChange);
+
+// Appeler la fonction lors du chargement initial de la page
+document.addEventListener('DOMContentLoaded', handleHashChange);

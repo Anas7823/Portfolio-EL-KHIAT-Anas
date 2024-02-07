@@ -107,6 +107,7 @@ body {
     body{
         display: flex;
         flex-direction: column;
+        height: 100svh;
     }
     .nav-border { /* Barre de navigation de base cacher */
         display: none;

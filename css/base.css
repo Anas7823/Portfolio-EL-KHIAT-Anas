@@ -64,29 +64,6 @@ body {
     }
 }
 
-/* @keyframes animatedBorderRight {
-    0% {
-        border-right: 1px solid rgb(247, 37, 133);
-        box-shadow: 0 4px 30px 0 rgba(247, 37, 133, 0.5);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-    }
-
-    50% {
-        border-right: 1px solid rgb(237, 76, 103) ;
-        box-shadow: 0 4px 30px 0 rgba(237, 76, 103, 0.5);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-    }
-
-    100% {
-        border-right: 1px solid rgb(217, 128, 250);
-        box-shadow: 0 4px 30px 0 rgba(217, 128, 250, 0.5);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-    }
-} */
-
 .lienNav {
     width: 100%;
     height: 50px;
@@ -145,11 +122,12 @@ body {
     .hamburger {
         display: none;
         width: 100vw;
-        height: 100vh;
+        height: 100svh;
         padding: 20px;
     }
     .header{
         width: 100vw !important;
+        height: 100svh;
     }
     .btn-hamburger {
         display: flex;

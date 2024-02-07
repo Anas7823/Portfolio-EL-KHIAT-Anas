@@ -118,3 +118,46 @@ body {
 
 /* Navbar */
 
+/* Responsive Navbar */
+
+.nav-hamburger {
+    display: none;
+}
+.hamburger {
+    display: none;
+}
+@media screen and (max-width: 1180px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-border { /* Barre de navigation de base cacher */
+        display: none;
+    }
+    .nav-hamburger{
+        display: block;
+        position: fixed;
+        background-color: white;
+        width: 100vw;
+        height: fit-content;
+        z-index: 1000;
+    }
+    .hamburger {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        padding: 20px;
+    }
+    .header{
+        width: 100vw !important;
+    }
+    .btn-hamburger {
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+/* Fin du code responsive Navbar */

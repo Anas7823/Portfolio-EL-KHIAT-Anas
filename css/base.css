@@ -116,6 +116,7 @@ body {
         position: fixed;
         background-color: white;
         width: 100vw;
+        min-height: 5svh;
         height: fit-content;
         z-index: 1000;
     }
@@ -127,7 +128,7 @@ body {
     }
     .header{
         width: 100vw !important;
-        height: 100svh;
+        height: 95svh;
     }
     .btn-hamburger {
         display: flex;

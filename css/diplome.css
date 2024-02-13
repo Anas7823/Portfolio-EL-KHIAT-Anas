@@ -73,3 +73,27 @@ body{
 .modal{
     color: #000 !important;
 }
+
+/* Responsive */
+@media screen and (max-width: 1180px) {
+    .diplomes{
+        overflow: scroll;
+        height: fit-content;
+        display: block;
+        position: relative;
+        padding-top: 5rem;
+        width: 100%;
+    }
+    .head{
+        width: 100%;
+    }
+    .title-diplome-trier{
+        margin: 2px;
+    }
+    .title-diplome-trier button{
+        width: 10vw;
+        margin-right: 2%;
+    }
+}
+
+/* Responsive */

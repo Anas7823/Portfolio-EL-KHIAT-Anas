@@ -58,3 +58,22 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+@media screen and (max-width: 1180px) {
+    body{
+        height: 100svh;
+    }
+    .contact{
+        width: 90vw;
+    }
+    .contact .row{
+        width: 100%;
+    }
+    .contact-item img{
+        min-height: 40px;
+        min-width: 40px;
+        height: auto;
+        width: 100%;
+        border-radius: 15px;
+    }
+}

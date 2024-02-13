@@ -52,3 +52,23 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 1180px) {
+  .container{
+      overflow: scroll;
+      height: fit-content;
+      display: block;
+      position: relative;
+      padding: 5rem; /* Pour éviter d'avoir la dernière card coupé */
+  }
+  .carte{
+    width: 80%;
+  }
+  .btnCarte{
+    width: 80%;
+  }
+  .texteCarte{
+    height: auto;
+    display: block;
+  }
+}

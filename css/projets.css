@@ -36,3 +36,13 @@ body{
     height: 30%;
     overflow: hidden;
 }
+
+@media screen and (max-width: 1180px) {
+    .container{
+        overflow: scroll;
+        height: fit-content;
+        display: block;
+        position: relative;
+        padding: 5rem; /* Pour éviter d'avoir la dernière card coupé */
+    }
+}

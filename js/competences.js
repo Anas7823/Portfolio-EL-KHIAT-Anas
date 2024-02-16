@@ -88,13 +88,6 @@ let competences = [
         projet: false
     },
     {
-        nom: "Git",
-        image: "../img/competences/git.png",
-        lien: "",
-        designation: "Outil de versioning",
-        projet: false
-    },
-    {
         nom: "Apprentissage personnel",
         image: "../img/competences/apprentissage_personnel.webp",
         lien: "./pages-competences/apprentissage_personnel.html",
@@ -102,12 +95,40 @@ let competences = [
         projet: true
     },
     {
+        nom: "Git",
+        image: "../img/competences/git.png",
+        lien: "",
+        designation: "Outil de versioning",
+        projet: false
+    },
+    {
+        nom: "Github",
+        image: "../img/competences/github.svg",
+        lien: "",
+        designation: "Outil de versioning",
+        projet: false
+    },
+    {
         nom: "Figma",
         image: "../img/competences/Figma.jpg",
         lien: "",
         designation: "Outil de maquettage",
         projet: false
-    }
+    },
+    {
+        nom: "UML",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/UML_logo.svg/400px-UML_logo.svg.png",
+        lien: "",
+        designation: "Outil de de modélisation graphique",
+        projet: false
+    },
+    {
+        nom: "Gantt",
+        image: "https://colibre.org/wp-content/uploads/2019/02/logo-Ganttproject01.jpg",
+        lien: "",
+        designation: "Outil de gestion de projet ",
+        projet: false
+    },
 ];
 
 // Affichage des diplomes

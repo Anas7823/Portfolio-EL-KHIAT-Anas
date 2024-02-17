@@ -74,6 +74,20 @@ let competences = [
         projet: true
     },
     {
+        nom: "Dart / Flutter",
+        image: "../img/competences/flutter-dart.jpg",
+        lien: "./pages-competences/flutter.html",
+        designation: "Langage de programmation et Framework",
+        projet: true
+    },
+    {
+        nom: "Angular",
+        image: "../img/competences/angular.jpg",
+        lien: "./pages-competences/angular.html",
+        designation: "Framework TypeScript",
+        projet: true
+    },
+    {
         nom: "Python / Notebook Jupyter",
         image: "../img/competences/jupyter.png",
         lien: "",
@@ -86,20 +100,6 @@ let competences = [
         lien: "./pages-competences/django.html",
         designation: "Framework Python",
         projet: false
-    },
-    {
-        nom: "Dart / Flutter",
-        image: "../img/competences/flutter-dart.jpg",
-        lien: "./pages-competences/flutter.html",
-        designation: "Langage de programmation et Framework",
-        projet: true
-    },
-    {
-        nom: "Angular",
-        image: "../img/competences/angular.jpg",
-        lien: "",
-        designation: "Framework TypeScript",
-        projet: true
     },
     {
         nom: "Apprentissage personnel",

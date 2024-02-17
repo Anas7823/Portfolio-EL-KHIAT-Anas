@@ -4,6 +4,48 @@ let tableCompetence = document.getElementById("competences");
 // Tableau des compétences
 let competences = [
     {
+        nom: "HTML / CSS",
+        image: "../img/competences/html-css.jpg",
+        lien: "./pages-competences/html-css.html",
+        designation: "Langage de programmation",
+        projet: true
+    },
+    {
+        nom: "JavaScript",
+        image: "../img/competences/javascript.webp",
+        lien: "./pages-competences/js.html",
+        designation: "Langage de programmation",
+        projet: true
+    },
+    {
+        nom: "PHP",
+        image: "../img/competences/php.png",
+        lien: "./pages-competences/php.html",
+        designation: "Langage de programmation",
+        projet: true
+    },
+    {
+        nom: "TypeScript",
+        image: "../img/competences/typescript.png",
+        lien: "",
+        designation: "Langage de programmation",
+        projet: false
+    },
+    {
+        nom: "Python",
+        image: "../img/competences/python.png",
+        lien: "",
+        designation: "Langage de programmation",
+        projet: false
+    },
+    {
+        nom: "SQL",
+        image: "../img/competences/sql.jpg",
+        lien: "",
+        designation: "Langage de programmation",
+        projet: false
+    },
+    {
         nom: "ReactJS",
         image: "../img/competences/reactjs.jpg",
         lien: "./pages-competences/react.html",
@@ -25,13 +67,6 @@ let competences = [
         projet: true
     },
     {
-        nom: "PHP",
-        image: "../img/competences/php.png",
-        lien: "./pages-competences/php.html",
-        designation: "Langage de programmation",
-        projet: true
-    },
-    {
         nom: "Symfony 6 / Twig",
         image: "../img/competences/Symf-twig.jpg",
         lien: "./pages-competences/symfony.html",
@@ -39,45 +74,10 @@ let competences = [
         projet: true
     },
     {
-        nom: "SQL",
-        image: "../img/competences/sql.jpg",
-        lien: "",
-        designation: "Langage de programmation",
-        projet: false
-    },
-    {
-        nom: "HTML / CSS",
-        image: "../img/competences/html-css.jpg",
-        lien: "./pages-competences/html-css.html",
-        designation: "Langage de programmation",
-        projet: true
-    },
-    {
-        nom: "JavaScript",
-        image: "../img/competences/javascript.webp",
-        lien: "./pages-competences/js.html",
-        designation: "Langage de programmation",
-        projet: true
-    },
-    {
-        nom: "TypeScript",
-        image: "../img/competences/typescript.png",
-        lien: "",
-        designation: "Langage de programmation",
-        projet: false
-    },
-    {
-        nom: "Python",
-        image: "../img/competences/python.png",
-        lien: "",
-        designation: "Langage de programmation",
-        projet: false
-    },
-    {
         nom: "Python / Notebook Jupyter",
         image: "../img/competences/jupyter.png",
         lien: "",
-        designation: "Langage de programmation et Framework",
+        designation: "Framework Python",
         projet: false
     },
     {
@@ -98,7 +98,7 @@ let competences = [
         nom: "Angular",
         image: "../img/competences/angular.jpg",
         lien: "",
-        designation: "Langage de programmation et Framework",
+        designation: "Framework TypeScript",
         projet: true
     },
     {
@@ -123,6 +123,13 @@ let competences = [
         projet: false
     },
     {
+        nom: "OVH Cloud",
+        image: "../img/competences/ovh.webp",
+        lien: "",
+        designation: "Service d'hébergement",
+        projet: false
+    },
+    {
         nom: "Figma",
         image: "../img/competences/Figma.jpg",
         lien: "",
@@ -131,14 +138,35 @@ let competences = [
     },
     {
         nom: "UML",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/UML_logo.svg/400px-UML_logo.svg.png",
+        image: "../img/competences/uml.svg.png",
         lien: "",
         designation: "Outil de de modélisation graphique",
         projet: false
     },
     {
         nom: "Gantt",
-        image: "https://colibre.org/wp-content/uploads/2019/02/logo-Ganttproject01.jpg",
+        image: "../img/competences/gantt.jpg",
+        lien: "",
+        designation: "Outil de gestion de projet ",
+        projet: false
+    },
+    {
+        nom: "Jira",
+        image: "../img/competences/jira.png",
+        lien: "",
+        designation: "Outil de gestion de projet ",
+        projet: false
+    },
+    {
+        nom: "IceScrum",
+        image: "../img/competences/icescrum.png",
+        lien: "",
+        designation: "Outil de gestion de projet ",
+        projet: false
+    },
+    {
+        nom: "Trello",
+        image: "../img/competences/trello.png",
         lien: "",
         designation: "Outil de gestion de projet ",
         projet: false

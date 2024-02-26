@@ -5,6 +5,37 @@
     font-weight: 300;
     letter-spacing: 2px;
     font-size: 48px;
+    /* Animation de vague au hover */
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: transparent;
+    background: url("https://wweb.dev/resources/creative-hover-effects/wave.svg") repeat-x #fff;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% 100%;
+    background-position-x: 0;
+    background-position-y: 2em;
+    -webkit-transition: background-position-y 0.6s ease;
+    transition: background-position-y 0.6s ease;
+    -webkit-animation: waveAnimation 4s infinite linear;
+    animation: waveAnimation 4s infinite linear;
+    animation-play-state: running;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    /* animation de vague */
+}
+
+.vague:hover{
+    background-position-x: 0;
+    background-position-y: 0;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    cursor: crosshair;
 }
 
 p {
@@ -113,6 +144,15 @@ p {
 
     .vague {
         font-size: 24px;
+    }
+}
+
+@keyframes waveAnimation{ /* Animation pour l'effet vague sur mon nom / prénom au hover */
+    from {
+      background-position-x: 0%;
+    }
+    to {
+      background-position-x: 200%;
     }
 }
 

@@ -151,6 +151,13 @@ let competences = [
         projet: false
     },
     {
+        nom: "Postman",
+        image: "../img/competences/postman.jpg",
+        lien: "",
+        designation: "Outil de gestion de projet ",
+        projet: false
+    },
+    {
         nom: "Jira",
         image: "../img/competences/jira.png",
         lien: "",

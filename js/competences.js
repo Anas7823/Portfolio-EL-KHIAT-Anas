@@ -154,7 +154,7 @@ let competences = [
         nom: "Postman",
         image: "../img/competences/postman.jpg",
         lien: "",
-        designation: "Outil de gestion de projet ",
+        designation: "Outil de test API",
         projet: false
     },
     {

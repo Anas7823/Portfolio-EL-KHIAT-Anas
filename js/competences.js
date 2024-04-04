@@ -88,7 +88,7 @@ let competences = [
         projet: true
     },
     {
-        nom: "Python / Notebook Jupyter",
+        nom: "Python / Jupyter Notebook",
         image: "../img/competences/jupyter.png",
         lien: "",
         designation: "Framework Python",

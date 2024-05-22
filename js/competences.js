@@ -88,6 +88,13 @@ let competences = [
         projet: true
     },
     {
+        nom: "PHPUnit",
+        image: "../img/competences/phpunit.png",
+        lien: "",
+        designation: "Framework PHP",
+        projet: false
+    },
+    {
         nom: "Python / Jupyter Notebook", 
         image: "../img/competences/jupyter.png",
         lien: "",

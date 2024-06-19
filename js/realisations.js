@@ -12,7 +12,15 @@ let realisations = [
         visible: true
     },
     {
-        nom: "GFM ASSISTANCE ADMINISTRATIVE",
+        nom: "Label Auto",
+        image: "../img/realisations/label_auto.jpg",
+        lien: "",
+        description: "Site de présentation et de devis pour un garage automobile.",
+        etat: false, // true = en ligne, false = en cours de développement
+        visible: false
+    },
+    {
+        nom: "GFM assistance administrative",
         image: "../img/realisations/gfm.webp",
         lien: "https://anas7823.github.io/assistAd/",
         description: "Site vitrine pour une entreprise d'aide administrative.",
@@ -20,21 +28,29 @@ let realisations = [
         visible: true
     },
     {
-        nom: "Formulaire Start-Zup",
-        image: "../img/realisations/startZup.jpg",
-        lien: "",
-        description: "Formulaire d'inscription pour le cfa Start-Zup.",
+        nom: "EFC Auto Ecole",
+        image: "https://media.istockphoto.com/id/1283073177/fr/photo/texte-auto-ecole-dans-fran%C3%A7ais-de-panneau-d%C3%A9cole-de-conduite-sur-le-toit-de-la-voiture.jpg?s=612x612&w=0&k=20&c=M2PsyoxM52nK-eXPSdyjbsKj14iRThV9Tt-mr9NvMac=",
+        lien: "https://anas7823.github.io/efcAutoEcole/",
+        description: "Site de présentation pour une auto-école.",
         etat: false, // true = en ligne, false = en cours de développement
-        visible: false
-    },
-    {
-        nom: "Dashboard Start-Zup",
-        image: "../img/realisations/startZup.jpg",
-        lien: "",
-        description: "Site permettant la gestion des étudiants et leurs placement après formation.",
-        etat: false, // true = en ligne, false = en cours de développement
-        visible: false
-    },
+        visible: true
+    }
+    // {
+    //     nom: "Formulaire Start-Zup",
+    //     image: "../img/realisations/startZup.jpg",
+    //     lien: "",
+    //     description: "Formulaire d'inscription pour le cfa Start-Zup.",
+    //     etat: false, // true = en ligne, false = en cours de développement
+    //     visible: false
+    // },
+    // {
+    //     nom: "Dashboard Start-Zup",
+    //     image: "../img/realisations/startZup.jpg",
+    //     lien: "",
+    //     description: "Site permettant la gestion des étudiants et leurs placement après formation.",
+    //     etat: false, // true = en ligne, false = en cours de développement
+    //     visible: false
+    // },
 ];
 
 // Affichage des diplomes
@@ -49,7 +65,9 @@ for (let i = 0; i < realisations.length; i++) {
             <div class="card-body">
                 <h5 class="card-title" style="height: 35px; ">${realisation.nom}</h5>
                 <p class="card-text" style="height: 30px; margin-bottom: 25px;">${realisation.description}</p>
-                ${realisation.visible ? `<a href='${realisation.lien}' class="btn btn-dark" target="_blank">Voir le projet</a>` : ``}
+                ${realisation.visible ? `<a href='${realisation.lien}' class="btn btn-dark" target="_blank">Voir le projet</a>` 
+                    :
+                     `<a href='#' class="btn btn-dark disabled">Voir le projet</a>`}
                 
             </div>
         </div>

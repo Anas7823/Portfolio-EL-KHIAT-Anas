@@ -27,6 +27,12 @@ body{
     margin-top: 2rem;
 }
 
+/* .card-realisation .card-img-top{
+    height: 200px;
+    outline: 1px solid #000;
+    object-fit: fill;
+} */
+
 @media screen and (max-width: 1180px) {
     .container{
         overflow-y: scroll;

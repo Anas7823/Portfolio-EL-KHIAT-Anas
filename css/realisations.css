@@ -1,10 +1,11 @@
 body{
     overflow-x: hidden;
 }
+
 .realisations{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -26,6 +27,55 @@ body{
     margin: 2rem auto !important;
     margin-top: 2rem;
 }
+
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2), inset -2px -2px 5px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease-in-out;
+    background-color: #ececec;
+}
+
+.icon-container i{
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tooltip-text {
+    position: absolute;
+    top: 50%;
+    left: 110%; /* Positionner le texte à droite de l'icône, mais hors du cadre */
+    transform: translateY(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.icon-container:hover {
+    padding-right: 180px; /* Augmenter la taille du conteneur pour faire de la place au texte */
+    border-color: #ffc107; /* Changer la couleur du contour pour un effet visuel supplémentaire */
+}
+
+.icon-container:hover .tooltip-text {
+    opacity: 1;
+    visibility: visible;
+    left: calc(25% + 0px); /* Le texte apparaît à côté de l'icône */
+    transform: translateY(-50%); /* Centrer verticalement */
+}
+
+
+
 
 /* .card-realisation .card-img-top{
     height: 200px;

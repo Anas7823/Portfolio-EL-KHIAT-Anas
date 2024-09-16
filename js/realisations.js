@@ -8,7 +8,7 @@ let realisations = [
         image: "../img/realisations/h-a-conduite.png",
         lien: "https://anas7823.github.io/H.A-Conduite/",
         description: "Site vitrine pour une auto-école.",
-        etat: false, // true = en ligne, false = en cours de développement
+        etat: "Refonte en cours", 
         visible: true
     },
     {
@@ -16,7 +16,7 @@ let realisations = [
         image: "../img/realisations/label_auto.jpg",
         lien: "",
         description: "Site de présentation et de devis pour un garage automobile.",
-        etat: false, // true = en ligne, false = en cours de développement
+        etat: "En attente du client", 
         visible: false
     },
     {
@@ -24,7 +24,7 @@ let realisations = [
         image: "../img/realisations/gfm.webp",
         lien: "https://anas7823.github.io/assistAd/",
         description: "Site vitrine pour une entreprise d'aide administrative.",
-        etat: false, // true = en ligne, false = en cours de développement
+        etat: "En attente du client", 
         visible: true
     },
     {
@@ -32,8 +32,16 @@ let realisations = [
         image: "https://media.istockphoto.com/id/1283073177/fr/photo/texte-auto-ecole-dans-fran%C3%A7ais-de-panneau-d%C3%A9cole-de-conduite-sur-le-toit-de-la-voiture.jpg?s=612x612&w=0&k=20&c=M2PsyoxM52nK-eXPSdyjbsKj14iRThV9Tt-mr9NvMac=",
         lien: "https://anas7823.github.io/efcAutoEcole/",
         description: "Site de présentation pour une auto-école.",
-        etat: false, // true = en ligne, false = en cours de développement
+        etat: "En attente du client", 
         visible: true
+    },
+    {
+        nom: "Atelier du primeur",
+        image: "../img/realisations/Atelier_du_primeur.png",
+        lien: "",
+        description: "Site de vitrine permettant de réaliser des commandes depuis un formulaire.",
+        etat: "Développement en cours",
+        visible: false
     }
     // {
     //     nom: "Formulaire Start-Zup",
@@ -53,14 +61,33 @@ let realisations = [
     // },
 ];
 
-// Affichage des diplomes
+
+// Fonction pour obtenir l'icône en fonction de l'état du projet
+function getIconByState(etat) {
+    switch (etat) {
+        case "Refonte en cours":
+            return `<i class="fas fa-wrench" style=" color: #218c74;"></i>`;
+        case "En attente du client":
+            return `<i class="fas fa-pause" style="color: #227093;"></i>`;
+        case "Développement en cours":
+            return `<i class="fas fa-code" style="color: #706fd3;"></i>`;
+        default:
+            return `<i class="fas fa-question-circle" style="color: #6c757d;"></i>`;
+    }
+}
+
+// Affichage des réalisations
 for (let i = 0; i < realisations.length; i++) {
     let realisation = realisations[i];
+    let etatText = realisation.etat
+    let iconHTML = getIconByState(realisation.etat);
     let realisationHTML = `
     <div class="card card-realisation" style="width:20rem; color: black; margin: 1rem; height: 25rem;">
             <div class="card-header" style="min-height: 4rem; ">
-                ${realisation.etat === true ? `<i class="fas fa-check-circle"  style='float: right; font-size: 30px; color: green;'></i>` : `<i class="fas fa-exclamation-triangle" style='float: right; font-size: 30px; color: #ffc107;'></i>`}
-            </div>
+                <div class="icon-container">
+                    ${iconHTML}
+                    <span class="tooltip-text">${etatText}</span>
+                </div>            </div>
             <img src="${realisation.image}" class="card-img-top" alt="realisation-img" style="min-height: 160px;">
             <div class="card-body">
                 <h5 class="card-title" style="height: 35px; ">${realisation.nom}</h5>

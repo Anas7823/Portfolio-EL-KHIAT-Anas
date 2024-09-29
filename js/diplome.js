@@ -31,8 +31,17 @@ let diplomes = [
         titre: "Bachelor de Développement fullstack & DevOps",
         date: "2023-2024",
         lieu: "IPSSI SQY",
-        etat: "en_cours",
+        etat: "obtenu",
         description: "Le Bachelor en Développement Fullstack & DevOps forme des experts capables de concevoir et gérer des applications informatiques complètes, du développement à l'opérationnel. Les diplômés sont compétents en développement Fullstack et maîtrisent les principes du DevOps pour une collaboration fluide entre les équipes de développement et d'exploitation.",
+        image:"../img/logo_ipssi.png"
+    },
+    {
+        id: "diplome_3",
+        titre: "Mastère Dev bigdata & IA",
+        date: "2024-2026",
+        lieu: "IPSSI SQY",
+        etat: "en_cours",
+        description: "Le Mastère en Développement Big Data & Intelligence Artificielle est un cursus de niveau bac+5 axé sur l'acquisition de compétences avancées en développement, data science, et IA. En 4e année, les étudiants se concentrent sur le développement d'applications (Python, SQL, NoSQL), la création d'API REST, l'architecture n-tiers, et des frameworks comme React JS/Native. Des projets en machine learning, big data et gestion de clusters sont également abordés, ainsi que la gestion agile et la conformité RGPD. En 5e année, l'accent est mis sur l'intelligence artificielle, le web scraping, les architectures de données (Data Lake, Warehouse), la sécurité, et l'entrepreneuriat.",
         image:"../img/logo_ipssi.png"
     },
 ];

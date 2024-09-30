@@ -15,7 +15,6 @@ body {
     z-index: 1;
     width: 20vw;
     min-height: 100vh;
-    max-height: fit-content; /* Pour que la navbar puisse déssendre en fonction de la taille de l'écran */
     padding: 50px;
     /* background: white;
     border: 1px solid transparent;

@@ -82,6 +82,9 @@ body{
         height: fit-content;
         display: block;
         position: relative;
-        padding-top: 5rem; /* Pour éviter d'avoir la dernière card coupé */
+        padding-top: 3rem; /* Pour éviter d'avoir la dernière card coupé */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

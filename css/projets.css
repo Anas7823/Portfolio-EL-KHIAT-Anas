@@ -44,5 +44,9 @@ body{
         display: block;
         position: relative;
         padding: 5rem; /* Pour éviter d'avoir la dernière card coupé */
+        display: flex
+        ;
+            align-items: center;
+            justify-content: center;
     }
 }

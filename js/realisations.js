@@ -4,12 +4,28 @@ let tableRealisations = document.getElementById("realisations");
 // Tableau des compétences
 let realisations = [
     {
+        nom: "Atelier du primeur",
+        image: "../img/realisations/Atelier_du_primeur.png",
+        lien: "",
+        description: "Site de vitrine permettant de réaliser des commandes depuis un formulaire.",
+        etat: "Développement en cours",
+        visible: false
+    },
+    {
+        nom: "Saftrick technology",
+        image: "../img/realisations/saftrick.png",
+        lien: "https://saftrick-technology.com/",
+        description: "Site de vitrine pour une entreprise informatique.",
+        etat: "En ligne",
+        visible: true
+    },
+    {
         nom: "H-A Conduite",
         image: "../img/realisations/h-a-conduite.png",
         lien: "https://anas7823.github.io/H.A-Conduite/",
         description: "Site vitrine pour une auto-école.",
         etat: "Refonte en cours", 
-        visible: true
+        visible: false
     },
     {
         nom: "Label Auto",
@@ -25,7 +41,7 @@ let realisations = [
         lien: "https://anas7823.github.io/assistAd/",
         description: "Site vitrine pour une entreprise d'aide administrative.",
         etat: "En attente du client", 
-        visible: true
+        visible: false
     },
     {
         nom: "EFC Auto Ecole",
@@ -33,14 +49,6 @@ let realisations = [
         lien: "https://anas7823.github.io/efcAutoEcole/",
         description: "Site de présentation pour une auto-école.",
         etat: "En attente du client", 
-        visible: true
-    },
-    {
-        nom: "Atelier du primeur",
-        image: "../img/realisations/Atelier_du_primeur.png",
-        lien: "",
-        description: "Site de vitrine permettant de réaliser des commandes depuis un formulaire.",
-        etat: "Développement en cours",
         visible: false
     }
     // {
@@ -71,6 +79,8 @@ function getIconByState(etat) {
             return `<i class="fas fa-pause" style="color: #227093;"></i>`;
         case "Développement en cours":
             return `<i class="fas fa-code" style="color: #706fd3;"></i>`;
+        case "En ligne":
+            return `<i class="fa-solid fa-check" style="color: #11b928;"></i>`;
         default:
             return `<i class="fas fa-question-circle" style="color: #6c757d;"></i>`;
     }
@@ -88,7 +98,7 @@ for (let i = 0; i < realisations.length; i++) {
                     ${iconHTML}
                     <span class="tooltip-text">${etatText}</span>
                 </div>            </div>
-            <img src="${realisation.image}" class="card-img-top" alt="realisation-img" style="min-height: 160px;">
+            <img src="${realisation.image}" class="card-img-top" alt="realisation-img" style="min-height: 160px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title" style="height: 35px; ">${realisation.nom}</h5>
                 <p class="card-text" style="height: 30px; margin-bottom: 25px;">${realisation.description}</p>

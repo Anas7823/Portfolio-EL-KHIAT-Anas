@@ -6,10 +6,10 @@ let realisations = [
     {
         nom: "Atelier du primeur",
         image: "../img/realisations/Atelier_du_primeur.png",
-        lien: "",
+        lien: "https://atelierduprimeur.com/",
         description: "Site de vitrine permettant de réaliser des commandes depuis un formulaire.",
-        etat: "Développement en cours",
-        visible: false
+        etat: "En ligne",
+        visible: true
     },
     {
         nom: "Saftrick technology",

@@ -46,6 +46,13 @@ let competences = [
         projet: false
     },
     {
+        nom: "MERN",
+        image: "../img/competences/mern.jpeg",
+        lien: "",
+        designation: "Stack JavaScript/MongoDB",
+        projet: false
+    },
+    {
         nom: "ReactJS",
         image: "../img/competences/reactjs.jpg",
         lien: "./pages-competences/react.html",
@@ -81,6 +88,13 @@ let competences = [
         projet: true
     },
     {
+        nom: "React Native",
+        image: "../img/competences/reactNative.png",
+        lien: "",
+        designation: "Langage de programmation et Framework",
+        projet: false
+    },
+    {
         nom: "Angular",
         image: "../img/competences/angular.jpg",
         lien: "./pages-competences/angular.html",
@@ -106,6 +120,20 @@ let competences = [
         image: "../img/competences/django.png",
         lien: "./pages-competences/django.html",
         designation: "Framework Python",
+        projet: false
+    },
+    {
+        nom: "API REST & application CRUD",
+        image: "../img/competences/Rest-API.png",
+        lien: "",
+        designation: "API REST",
+        projet: false
+    },
+    {
+        nom: "Architecture N-Tiers",
+        image: "../img/competences/nTier.jpg",
+        lien: "",
+        designation: "Architecture logicielle",
         projet: false
     },
     {

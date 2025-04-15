@@ -20,6 +20,14 @@ let realisations = [
         visible: true
     },
     {
+        nom: "EFC Auto Ecole",
+        image: "https://media.istockphoto.com/id/1283073177/fr/photo/texte-auto-ecole-dans-fran%C3%A7ais-de-panneau-d%C3%A9cole-de-conduite-sur-le-toit-de-la-voiture.jpg?s=612x612&w=0&k=20&c=M2PsyoxM52nK-eXPSdyjbsKj14iRThV9Tt-mr9NvMac=",
+        lien: "",
+        description: "Site de présentation pour une auto-école.",
+        etat: "Finalisation", 
+        visible: false
+    },
+    {
         nom: "H-A Conduite",
         image: "../img/realisations/h-a-conduite.png",
         lien: "https://anas7823.github.io/H.A-Conduite/",
@@ -43,14 +51,6 @@ let realisations = [
         etat: "En attente du client", 
         visible: false
     },
-    {
-        nom: "EFC Auto Ecole",
-        image: "https://media.istockphoto.com/id/1283073177/fr/photo/texte-auto-ecole-dans-fran%C3%A7ais-de-panneau-d%C3%A9cole-de-conduite-sur-le-toit-de-la-voiture.jpg?s=612x612&w=0&k=20&c=M2PsyoxM52nK-eXPSdyjbsKj14iRThV9Tt-mr9NvMac=",
-        lien: "https://anas7823.github.io/efcAutoEcole/",
-        description: "Site de présentation pour une auto-école.",
-        etat: "En attente du client", 
-        visible: false
-    }
     // {
     //     nom: "Formulaire Start-Zup",
     //     image: "../img/realisations/startZup.jpg",
@@ -81,6 +81,8 @@ function getIconByState(etat) {
             return `<i class="fas fa-code" style="color: #706fd3;"></i>`;
         case "En ligne":
             return `<i class="fa-solid fa-check" style="color: #11b928;"></i>`;
+        case "Finalisation":
+            return `<i class="" style="color:rgb(251, 167, 49);">✨</i>`;
         default:
             return `<i class="fas fa-question-circle" style="color: #6c757d;"></i>`;
     }

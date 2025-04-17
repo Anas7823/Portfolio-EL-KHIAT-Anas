@@ -102,6 +102,13 @@ let competences = [
         projet: true
     },
     {
+        nom: "Python / Django",
+        image: "../img/competences/django.png",
+        lien: "./pages-competences/django.html",
+        designation: "Framework Python",
+        projet: true
+    },
+    {
         nom: "PHPUnit",
         image: "../img/competences/phpunit.png",
         lien: "",
@@ -115,13 +122,7 @@ let competences = [
         designation: "Framework Python",
         projet: false
     },
-    {
-        nom: "Python / Django",
-        image: "../img/competences/django.png",
-        lien: "./pages-competences/django.html",
-        designation: "Framework Python",
-        projet: false
-    },
+    
     {
         nom: "API REST & application CRUD",
         image: "../img/competences/Rest-API.png",

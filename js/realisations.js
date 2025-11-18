@@ -19,38 +19,38 @@ let realisations = [
         etat: "En ligne",
         visible: true
     },
-    {
-        nom: "EFC Auto Ecole",
-        image: "https://media.istockphoto.com/id/1283073177/fr/photo/texte-auto-ecole-dans-fran%C3%A7ais-de-panneau-d%C3%A9cole-de-conduite-sur-le-toit-de-la-voiture.jpg?s=612x612&w=0&k=20&c=M2PsyoxM52nK-eXPSdyjbsKj14iRThV9Tt-mr9NvMac=",
-        lien: "",
-        description: "Site de présentation pour une auto-école.",
-        etat: "Finalisation", 
-        visible: false
-    },
-    {
-        nom: "H-A Conduite",
-        image: "../img/realisations/h-a-conduite.png",
-        lien: "https://anas7823.github.io/H.A-Conduite/",
-        description: "Site vitrine pour une auto-école.",
-        etat: "Refonte en cours", 
-        visible: false
-    },
-    {
-        nom: "Label Auto",
-        image: "../img/realisations/label_auto.jpg",
-        lien: "",
-        description: "Site de présentation et de devis pour un garage automobile.",
-        etat: "En attente du client", 
-        visible: false
-    },
-    {
-        nom: "GFM assistance administrative",
-        image: "../img/realisations/gfm.webp",
-        lien: "https://anas7823.github.io/assistAd/",
-        description: "Site vitrine pour une entreprise d'aide administrative.",
-        etat: "En attente du client", 
-        visible: false
-    },
+    // {
+    //     nom: "EFC Auto Ecole",
+    //     image: "https://media.istockphoto.com/id/1283073177/fr/photo/texte-auto-ecole-dans-fran%C3%A7ais-de-panneau-d%C3%A9cole-de-conduite-sur-le-toit-de-la-voiture.jpg?s=612x612&w=0&k=20&c=M2PsyoxM52nK-eXPSdyjbsKj14iRThV9Tt-mr9NvMac=",
+    //     lien: "",
+    //     description: "Site de présentation pour une auto-école.",
+    //     etat: "Finalisation", 
+    //     visible: false
+    // },
+    // {
+    //     nom: "H-A Conduite",
+    //     image: "../img/realisations/h-a-conduite.png",
+    //     lien: "https://anas7823.github.io/H.A-Conduite/",
+    //     description: "Site vitrine pour une auto-école.",
+    //     etat: "Refonte en cours", 
+    //     visible: false
+    // },
+    // {
+    //     nom: "Label Auto",
+    //     image: "../img/realisations/label_auto.jpg",
+    //     lien: "",
+    //     description: "Site de présentation et de devis pour un garage automobile.",
+    //     etat: "En attente du client", 
+    //     visible: false
+    // },
+    // {
+    //     nom: "GFM assistance administrative",
+    //     image: "../img/realisations/gfm.webp",
+    //     lien: "https://anas7823.github.io/assistAd/",
+    //     description: "Site vitrine pour une entreprise d'aide administrative.",
+    //     etat: "En attente du client", 
+    //     visible: false
+    // },
     // {
     //     nom: "Formulaire Start-Zup",
     //     image: "../img/realisations/startZup.jpg",

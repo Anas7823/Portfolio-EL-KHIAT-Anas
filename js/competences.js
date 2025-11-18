@@ -46,6 +46,27 @@ let competences = [
         projet: false
     },
     {
+        nom: "Machine Learning et Deep Learning",
+        image: "../img/competences/MLDL.jpg",
+        lien: "",
+        designation: "Intelligence artificielle",
+        projet: false
+    },
+    {
+        nom: "Big Data",
+        image: "../img/competences/big_data.png",
+        lien: "",
+        designation: "Analyse de données",
+        projet: false
+    },
+    {
+        nom: "Web Scraping",
+        image: "../img/competences/scraping.png",
+        lien: "",
+        designation: "Technique d'extraction de données",
+        projet: false
+    },
+    {
         nom: "MERN",
         image: "../img/competences/mern.jpeg",
         lien: "",
@@ -135,6 +156,41 @@ let competences = [
         image: "../img/competences/nTier.jpg",
         lien: "",
         designation: "Architecture logicielle",
+        projet: false
+    },
+    {
+        nom: "Docker",
+        image: "../img/competences/Docker.png",
+        lien: "",
+        designation: "Outil de conteneurisation",
+        projet: false
+    },
+    {
+        nom: "Airflow",
+        image: "../img/competences/Airflow.jpg",
+        lien: "",
+        designation: "Outil d'orchestration de flux de travail",
+        projet: false
+    },
+    {
+        nom: "Hadoop",
+        image: "../img/competences/hadoop.jpg",
+        lien: "",
+        designation: "Framework de stockage & calcul de données",
+        projet: false
+    },
+    {
+        nom: "Apache Spark",
+        image: "../img/competences/spark.png",
+        lien: "",
+        designation: "Framework de traitement de données",
+        projet: false
+    },
+    {
+        nom: "Kafka",
+        image: "../img/competences/kafka.png",
+        lien: "",
+        designation: "Plateforme de streaming",
         projet: false
     },
     {

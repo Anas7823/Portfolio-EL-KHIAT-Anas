@@ -39,17 +39,17 @@ let competences = [
         projet: false
     },
     {
+        nom: "Intelligence Artificielle",
+        image: "../img/competences/MLDL.jpg",
+        lien: "./pages-competences/MLDL.html",
+        designation: "Intelligence artificielle",
+        projet: true
+    },
+    {
         nom: "SQL",
         image: "../img/competences/sql.jpg",
         lien: "",
         designation: "Langage de programmation",
-        projet: false
-    },
-    {
-        nom: "Machine Learning et Deep Learning",
-        image: "../img/competences/MLDL.jpg",
-        lien: "",
-        designation: "Intelligence artificielle",
         projet: false
     },
     {
@@ -167,7 +167,7 @@ let competences = [
     },
     {
         nom: "Airflow",
-        image: "../img/competences/Airflow.jpg",
+        image: "../img/competences/airflow.jpg",
         lien: "",
         designation: "Outil d'orchestration de flux de travail",
         projet: false
